@@ -9,7 +9,7 @@ packages = [{ include = "kattis", from = "src" }]
 [tool.poetry.dependencies]
 python = "^3.10"
 
-[tool.poetry.dev-dependencies]
+[poetry.group.dev.dependencies]
 pytest = "^8.0"
 
 [build-system]
