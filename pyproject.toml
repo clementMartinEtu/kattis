@@ -1,17 +1,17 @@
-[project]
+[tool.poetry]
 name = "kattis"
 version = "0.1.0"
-description = ""
-authors = [
-    {name = "Clement Martin",email = "clement.martin2.etu@univ-lille.fr"}
-]
+description = "Solutions to Kattis / CheckIO problems"
+authors = ["Clement Martin <clement.martin2.etu@univ-lille.fr>"]
 readme = "README.md"
-requires-python = ">=3.10"
-dependencies = [
-]
+packages = [{ include = "kattis", from = "src" }]
+python = "^3.10"
 
-[tool.poetry]
-packages = [{include = "kattis", from = "src"}]
+[tool.poetry.dependencies]
+# No dependencies yet
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
