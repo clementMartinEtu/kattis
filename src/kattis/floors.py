@@ -2,8 +2,8 @@
 
 def solve(n):
     if n < 13:
-        print(n)
+        return n
     else:
-        print(n+1)
+        return n + 1
 
 solve(13)
