@@ -1,8 +1,5 @@
 #https://open.kattis.com/problems/lvable
 
-
-#change the code below as a function
-
 def solve(n, s):
     if "lv" in s:
         return 0
