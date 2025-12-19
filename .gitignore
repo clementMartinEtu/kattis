@@ -1,1 +1,8 @@
 *.pyc
+*.tar.gz
+__pycache__/
+.env
+.venv
+dist/
+.coverage
+*.lock
